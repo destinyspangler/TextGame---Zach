@@ -331,7 +331,7 @@ public class LegendOfSelda
     }
     public static void takeItem()
     {
-       System.out.print("What item would you like to take.");
+       System.out.print("What item would you like to take?");
        Scanner sc = new Scanner(System.in);
        String item = sc.nextLine().toLowerCase();
        
